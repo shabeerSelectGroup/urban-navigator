@@ -1,7 +1,7 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHistory, createWebHashHistory } from 'vue-router'
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/task3',
@@ -11,7 +11,7 @@ const router = createRouter({
     {
       path: '/task7',
       name: 'task7',
-      component: () => import('../views/Tassk7view.vue'),
+      component: () => import('../views/Task7view.vue'),
     },
     {
       path: '/',

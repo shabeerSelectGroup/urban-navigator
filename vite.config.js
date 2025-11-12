@@ -8,7 +8,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/Urban-Navigator/',
+  base: '/urban-navigator/',
   plugins: [
     vue(),
     vueDevTools(),
